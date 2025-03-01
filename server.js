@@ -12,7 +12,7 @@ app.get("/", (req, res) => {
   res.send("🚀 Server running");
 });
 
-app.get("/generate-and-deploy", async (req, res) => {
+app.post("/generate-and-deploy", async (req, res) => {
   try {
     console.log("🚀 Fetching Strapi Data...");
     const posts = await fetchStrapiPosts();
