@@ -1,0 +1,11 @@
+{{ define "main_article" }}
+<h1>Blog Posts</h1>
+<ul>
+  {{ range .Pages }}
+  <li>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a> ({{ .Date.Format "January 2,
+    2006" }})
+  </li>
+  {{ end }}
+</ul>
+{{ end }}

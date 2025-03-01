@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testing Author on My New Hugo Site</title>
+    <link>//localhost:1313///whatsapp-business-api/blog/author/testing-author/</link>
+    <description>Recent content in Testing Author on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 22 Feb 2025 09:28:03 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313///whatsapp-business-api/blog/author/testing-author/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Test asdadads</title>
+      <link>//localhost:1313///whatsapp-business-api/blog/posts/test-dinesh/</link>
+      <pubDate>Sat, 22 Feb 2025 09:28:03 +0000</pubDate>
+      <guid>//localhost:1313///whatsapp-business-api/blog/posts/test-dinesh/</guid>
+      <description>&lt;p&gt;this is first test&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313///whatsapp-business-api/blog/uploads/large_sign_Up_c56c27e46f9e28d6062e_8952946b4c.webp&#34; alt=&#34;Cover Image&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;rich-text&#34;&gt;&lt;strong&gt;Rich Text&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;this is body&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;Quote:&lt;/strong&gt; &lt;em&gt;quote ttttttt&lt;/em&gt;&lt;br&gt;&#xA;bbbbbbbbbbbbbbbbbb&lt;/p&gt;&lt;/blockquote&gt;</description>
+    </item>
+  </channel>
+</rss>
