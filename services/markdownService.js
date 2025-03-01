@@ -21,14 +21,14 @@ date: "${createdAt}"
 slug: "${slug}"
 draft: false
 author: "${author?.name || "Unknown"}"
-cover_image: "https://cms.emovur.com/${
+cover_image: "https://cms.emovur.com${
           cover?.formats?.large?.url || cover?.url || ""
         }"
 ---`;
 
         // Add cover image if available
         const coverImage = cover?.formats?.large?.url
-          ? `\n![Cover Image](https://cms.emovur.com/${cover.formats.large.url})\n`
+          ? `\n![Cover Image](https://cms.emovur.com${cover.formats.large.url})\n`
           : "";
 
         // Process content blocks
