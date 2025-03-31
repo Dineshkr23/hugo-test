@@ -41,7 +41,7 @@ cover_image: "https://cms.emovur.com${
               return `> **Quote:** *${block.title}*\n> ${block.body}`;
             }
             if (block.__component === "shared.ck-editor") {
-              return `${body.CKEditor}`;
+              return `${block.CKEditor}`;
             }
             return "";
           })
