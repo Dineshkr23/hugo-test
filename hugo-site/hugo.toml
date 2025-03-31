@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "/whatsapp-business-api/blog/"
 languageCode = 'en-us'
 title = "ExampleSite"
 themesDir = 'themes'
