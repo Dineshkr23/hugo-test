@@ -4,6 +4,7 @@ import { fetchStrapiPosts } from "./services/strapiService.js";
 import { saveMarkdownFiles } from "./services/markdownService.js";
 import { buildHugo } from "./services/hugoService.js";
 import { deployToFTP } from "./services/ftpService.js";
+import { pushChangesToGitHub } from "./services/githubService.js";
 
 dotenv.config();
 const app = express();
@@ -23,8 +24,11 @@ app.post("/generate-and-deploy", async (req, res) => {
     console.log("⚡ Building Hugo...");
     await buildHugo();
 
-    console.log("📤 Deploying to FTP...");
-    await deployToFTP();
+    console.log("📦 Deploying to GitHub...");
+    await pushChangesToGitHub(posts[0]?.title); // Pass the title of the first post for commit message
+
+    // console.log("📤 Deploying to FTP...");
+    // await deployToFTP();
 
     res.status(200).send("✅ Blog updated and deployed successfully!");
   } catch (error) {
