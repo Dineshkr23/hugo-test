@@ -1,0 +1,253 @@
+.footer-meta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+  padding: 40px 0;
+}
+.footer-meta-inner-1 img {
+  margin-top: -5px;
+}
+
+.footer-meta-inner-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.footer-meta-inner-2 {
+  border: 1px solid #c0c0c9;
+  height: 25px;
+}
+.dowload-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Updated Class Names */
+.slider-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background: #fff;
+  padding: 20px 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.logo-slider {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: relative;
+  white-space: nowrap;
+}
+
+.logo-track {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  width: max-content;
+  filter: grayscale(100%) !important;
+  animation: scrollLeft 10s linear infinite;
+}
+
+/* Logo Styles */
+.logo-track img {
+  width: 150px; /* Adjust as needed */
+  height: 80px;
+  object-fit: contain;
+  transition: filter 0.3s ease-in-out;
+}
+
+/* Show color on hover */
+.logo-track:hover {
+  filter: grayscale(0%) !important;
+}
+.footer-information h6 {
+  display: none;
+}
+
+.last-section-tick-mark {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.tick-mark-last-section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.read-me {
+  padding: 5px 20px;
+  border-radius: 50px;
+  background-color: #c9e9ff;
+  color: #000000;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.last-strip-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f5fbff;
+  padding: 50px 50px;
+  border-radius: 10px;
+  position: relative;
+}
+.brands-main-last {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 10px;
+}
+
+/* Continuous Scroll Animation */
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0); /* Start at the beginning */
+  }
+  100% {
+    transform: translateX(-120%); /* Move by the full width */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-meta {
+    flex-direction: column;
+    gap: 0px !important;
+    padding: 0 !important;
+  }
+  .dowload-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 40px 0;
+    gap: 10px;
+  }
+  .mobile-view-footer-text h6 {
+    font-size: 1.1rem !important;
+  }
+  .desktop-google-play-image {
+    width: 120px !important;
+  }
+  .footer-information h6 {
+    display: block;
+    font-size: 1.1rem !important;
+  }
+
+  .brands-main-last {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+    flex-direction: column;
+  }
+  .last-section-tick-mark {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  /* .mobile-intigration-footer {
+      width: 100% !important;
+      display: flex;
+      gap: 10px;
+      margin-bottom: 20px;
+    } */
+  .footer-information {
+    margin-bottom: 20px;
+  }
+  .top-footer {
+    text-align: left !important;
+  }
+  .theme-footer-one {
+    text-align: left !important;
+    margin-top: 50px !important;
+  }
+  .footer-about-widget .email {
+    margin: 0 !important;
+  }
+  .top-footer [class*="col-"] {
+    padding-top: 10px 0 0 0 !important;
+  }
+  .top-footer [class*="col-"] {
+    margin-bottom: 0 !important;
+  }
+  .footer-about-widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 20px 0;
+  }
+  .last-strip-container {
+    padding-top: 70px !important;
+  }
+}
+
+.card {
+  border: none;
+  background: none;
+}
+
+.card-header {
+  background: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.btn-link {
+  text-decoration: none;
+  /* font-weight: 400; */
+  color: #000000; /* Corporate blue */
+  padding: 10px 0;
+  font-size: 17px;
+}
+
+.btn-link:hover {
+  text-decoration: none;
+  color: #0c9ffa;
+}
+
+.arrow-icon {
+  transition: transform 0.3s ease;
+}
+
+.collapsed .arrow-icon {
+  transform: rotate(0deg);
+}
+
+.arrow-icon.rotated {
+  transform: rotate(180deg);
+}
+
+.card-body {
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.card-body ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card-body ul li {
+  padding: 3px 0;
+}
+
+.card-body ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.card-body ul li a:hover {
+  color: #0056b3;
+}

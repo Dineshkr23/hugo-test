@@ -1,0 +1,11 @@
+[phases.setup]
+aptPkgs = ["hugo"]
+
+[phases.build]
+cmds = ["hugo build"]
+
+[environment]
+HUGO_VERSION = "0.144.2"
+
+[[nixpacks.included_files]]
+paths = ["/public"]

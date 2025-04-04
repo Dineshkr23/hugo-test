@@ -148,128 +148,974 @@
     </nav>
 </header> -->
 
-<header class="header">
-  <div class="main-page-wrapper">
-    <!-- 
+<!-- 
 			=============================================
 				Theme Main Menu
 			============================================== 
 			-->
-    <div class="theme-main-menu theme-menu-one main-orange-color sticky-menu">
-      <div class="d-flex align-items-center">
-        <div class="logo mr-auto">
-          <a href="../"><img src="../images/logo/logo.png" alt="emovur" /></a>
-        </div>
+<div
+  class="theme-main-menu-whatsapp theme-menu-one main-orange-color sticky-menu new-class"
+>
+  <a href="/" id="home-logo-btn">
+    <div
+      class="first-logo"
+      style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        aspect-ratio: 1/1;
+      "
+    >
+      <img
+        src="https://superadmin-dev.emovur.com/whatsapp-business-api/images/emovur-home-page-logo.svg"
+        alt="emovur"
+        class="logo-top"
+      />
+    </div>
+  </a>
 
-        <div class="right-content order-lg-3">
-          <ul class="d-flex align-items-center">
-            <li class="action-list-item">
+  <div
+    class="container d-flex align-items-center justify-content-between new-inner-class"
+  >
+    <a href="/whatsapp-business-api">
+      <div class="new-logo">
+        <img
+          src="https://superadmin-dev.emovur.com/whatsapp-business-api/images/Emovur%20+%20Whatsappnew.svg"
+          alt="emovur"
+          style="width: 200px"
+        />
+      </div> </a
+    ><br /><br />
+
+    <nav id="mega-menu-holder" class="navbar navbar-expand-lg order-lg-2">
+      <div class="container nav-container">
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="flaticon-setup"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav navigation">
+            <li class="nav-item nav-home">
               <a
-                href="../contact.php"
-                class="theme-btn line-button-one contact-button button-orange"
-                >Contact us</a
+                class="nav-link"
+                href="/whatsapp-business-api/pricing"
+                id="lg-hd-pricing-btn"
+                >Pricing</a
               >
             </li>
-          </ul>
-        </div>
 
-        <nav id="mega-menu-holder" class="navbar navbar-expand-lg order-lg-2">
-          <div class="container nav-container">
-            <button
-              class="navbar-toggler navbar-toggler-right"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+            <li
+              class="nav-item dropdown nav-services"
+              id="header-dropdown-disktop"
             >
-              <i class="flaticon-setup"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav navigation">
-                <li class="nav-item nav-home">
-                  <a class="nav-link" href="../">Home</a>
+              <a
+                class="nav-link dropdown-toggle dropdown-link"
+                href=""
+                data-toggle="dropdown"
+                >Features</a
+              >
+              <ul
+                class="dropdown-menu"
+                id="features-dropdown"
+                style="display: flex; gap: 20px"
+              >
+                <div style="width: 100%">
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/broadcast-bulk-messages"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/brodcast@4x.webp"
+                        alt="emovur"
+                        style="width: 25px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          WhatsApp Broadcast
+                        </p>
+                        <p style="font-size: 12px">
+                          Launch marketing campaigns<br />
+                          at scale.
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/shared-team-inbox"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/Shared@4x.webp"
+                        alt="emovur"
+                        style="width: 20px; margin-right: 3px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          Shared Team Inbox
+                        </p>
+                        <p style="font-size: 12px">
+                          Collaborate with team members <br />effectively.
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-flows"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/flows@4x.webp"
+                        alt="emovur"
+                        style="width: 25px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          WhatsApp Flows
+                        </p>
+                        <p style="font-size: 12px">
+                          Facilitate Meaningful Customer<br />
+                          Interactions with WhatsApp Flows
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-ai"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/flows@4x.webp"
+                        alt="emovur"
+                        style="width: 25px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 5px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          WhatsApp AI
+                        </p>
+                        <p style="font-size: 12px">
+                          Facilitate Meaningful Customer<br />
+                          Interactions with WhatsApp Flows
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+                <div style="width: 100%">
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-ecommerce"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/ecommerce@4x.webp"
+                        alt="emovur"
+                        style="width: 20px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          WhatsApp Ecommerce
+                        </p>
+                        <p style="font-size: 12px">
+                          Setup Product Catalogs and start<br />
+                          selling on WhatsApp in no time
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-payments"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/paymentheader@4x.webp"
+                        alt="emovur"
+                        style="width: 20px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          WhatsApp Payments
+                        </p>
+                        <p style="font-size: 12px">
+                          Automate payment collections<br />
+                          on WhatsApp
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-drip-campaign"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/drip@4x.webp"
+                        alt="emovur"
+                        style="width: 20px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          Drip Campaign
+                        </p>
+                        <p style="font-size: 12px">
+                          Send sequence of messages at<br />
+                          intervals on WhatsApp
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+              </ul>
+            </li>
+
+            <li
+              class="nav-item dropdown nav-services"
+              id="header-dropdown-mobile"
+            >
+              <a
+                class="nav-link dropdown-toggle dropdown-link"
+                href="#"
+                data-toggle="dropdown"
+                >Features</a
+              >
+              <ul class="dropdown-menu">
+                <li class="dropdown-item">
+                  <a href="./broadcast-bulk-messages.php">WhatsApp Broadcast</a>
                 </li>
-                <li class="nav-item dropdown nav-services">
-                  <a
-                    class="nav-link dropdown-toggle dropdown-link"
-                    href="#"
-                    data-toggle="dropdown"
-                    >Services</a
-                  >
-                  <ul class="dropdown-menu">
-                    <li class="dropdown-item">
-                      <a href="../services/social-media-marketing.php"
-                        >Social Media Marketing</a
-                      >
-                    </li>
-                    <li class="dropdown-item">
-                      <a href="../services/search-engine-optimization.php"
-                        >Search Engine Optimization</a
-                      >
-                    </li>
-                    <li class="dropdown-item">
-                      <a href="../services/google-adwords.php"
-                        >Google AdWords</a
-                      >
-                    </li>
-                    <li class="dropdown-item">
-                      <a href="../services/website-development.php">
-                        Web Development</a
-                      >
-                    </li>
-                    <!-- <li class="dropdown-item"><a href="./services/software-development.php">
-                                                Custom Software</a></li> -->
-                  </ul>
+                <li class="dropdown-item">
+                  <a href="./shared-team-inbox.php">Shared Team Inbox</a>
                 </li>
-                <li class="nav-item dropdown nav-services">
-                  <a
-                    class="nav-link dropdown-toggle dropdown-link"
-                    href="#"
-                    data-toggle="dropdown"
-                    style="color: #0c9ffa"
-                    >Products</a
-                  >
-                  <ul class="dropdown-menu">
-                    <!-- <li class="dropdown-item">
-                                            <a href="../products/social">Social</a> 
-                                        </li> -->
-                    <li class="dropdown-item">
-                      <a href="../google-workspace">Google Workspace</a>
-                    </li>
-                    <!-- <li class="dropdown-item">
-                                            <a href="../../products/chat">Chat</a>
-                                        </li> -->
-                    <!-- <li class="dropdown-item">
-                                            <a href="../products/crm">CRM</a> 
-                                        </li> -->
-                    <li class="dropdown-item">
-                      <a href="../products/googleBusinessMessages"
-                        >Google Business Messages</a
-                      >
-                    </li>
-                    <li class="dropdown-item">
-                      <a href="./">WhatsApp Business Api</a>
-                    </li>
-                  </ul>
+                <li class="dropdown-item">
+                  <a href="./whatsapp-flows.php">WhatsApp Flows</a>
                 </li>
-                <!-- <li class="nav-item dropdown nav-casestudies"> -->
-                <li class="nav-item nav-casestudies">
-                  <a class="nav-link" href="../casestudies.php">Case Study</a>
-                  <!-- <ul class="dropdown-menu">
-                                        <li class="dropdown-item"><a href="./casestudies.php">Case Studies</a></li>
-                                        <li class="dropdown-item"><a href="./gallery.php">Gallery</a></li>
-                                    </ul> -->
+                <li class="dropdown-item">
+                  <a href="./whatsapp-ecommerce.php">WhatsApp Ecommerce</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../blog">Blog</a>
+                <li class="dropdown-item">
+                  <a href="./whatsapp-payments.php">WhatsApp Payments</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="./whatsapp-drip-campaign.php">Drip Campaign</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="./whatsapp-ai.php">WhatsApp AI</a>
                 </li>
               </ul>
-            </div>
-          </div>
-        </nav>
+            </li>
+
+            <li
+              class="nav-item dropdown nav-services"
+              id="header-dropdown-disktop"
+            >
+              <a
+                class="nav-link dropdown-toggle dropdown-link"
+                href=""
+                data-toggle="dropdown"
+                >Industries</a
+              >
+              <ul class="dropdown-menu" style="display: flex; gap: 20px">
+                <div style="width: 100%">
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-chatbot-for-edutech"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/industries/education.svg"
+                        alt="emovur"
+                        style="width: 25px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          Education
+                        </p>
+                        <p style="font-size: 12px">
+                          Real-time communication solutions<br />
+                          for better learning
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-real-estate"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/industries/real estate.svg"
+                        alt="emovur"
+                        style="width: 20px; margin-right: 3px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          Real Estate
+                        </p>
+                        <p style="font-size: 12px">
+                          Collaborate with team members <br />effectively.
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-industries-ecommerce"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/industries/ecommerce.svg"
+                        alt="emovur"
+                        style="width: 25px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          E-Commerce
+                        </p>
+                        <p style="font-size: 12px">
+                          Facilitate Meaningful Customer<br />
+                          Interactions with WhatsApp Flows
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-home-decor"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/industries/home decore.svg"
+                        alt="emovur"
+                        style="width: 25px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 5px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          Home Decor
+                        </p>
+                        <p style="font-size: 12px">
+                          Facilitate Meaningful Customer<br />
+                          Interactions with WhatsApp Flows
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-events"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/industries/events.svg"
+                        alt="emovur"
+                        style="width: 25px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          Events and Webinars
+                        </p>
+                        <p style="font-size: 12px">
+                          Facilitate Meaningful Customer<br />
+                          Interactions with WhatsApp Flows
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+                <div style="width: 100%">
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-automotive"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/industries/automotive.svg"
+                        alt="emovur"
+                        style="width: 20px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          Automotive
+                        </p>
+                        <p style="font-size: 12px">
+                          Setup Product Catalogs and start<br />
+                          selling on WhatsApp in no time
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-banking-and-finance"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/industries/Banking.svg"
+                        alt="emovur"
+                        style="width: 20px"
+                      />
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          Banking and Finance
+                        </p>
+                        <p style="font-size: 12px">
+                          Automate payment collections<br />
+                          on WhatsApp
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-healthcare"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/industries/healthcare.svg"
+                        alt="emovur"
+                        style="width: 20px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          Healthcare
+                        </p>
+                        <p style="font-size: 12px">
+                          Send sequence of messages at<br />
+                          intervals on WhatsApp
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-tourism"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/industries/tourism.svg"
+                        alt="emovur"
+                        style="width: 20px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          Tourism
+                        </p>
+                        <p style="font-size: 12px">
+                          Send sequence of messages at<br />
+                          intervals on WhatsApp
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-restaurant"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/industries/Restuarant.svg"
+                        alt="emovur"
+                        style="width: 20px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          Restaurant
+                        </p>
+                        <p style="font-size: 12px">
+                          Send sequence of messages at<br />
+                          intervals on WhatsApp
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+
+                <div style="width: 100%">
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-Saas-IT-services"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/industries/SAAS IT.svg"
+                        alt="emovur"
+                        style="width: 25px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          SaaS/IT Services
+                        </p>
+                        <p style="font-size: 12px">
+                          Facilitate Meaningful Customer<br />
+                          Interactions with WhatsApp Flows
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-marketing-agency"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/industries/Marketing agency.svg"
+                        alt="emovur"
+                        style="width: 20px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          Marketing Agency
+                        </p>
+                        <p style="font-size: 12px">
+                          Send sequence of messages at<br />
+                          intervals on WhatsApp
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="dropdown-item">
+                    <a
+                      href="/whatsapp-business-api/whatsapp-spas-salons"
+                      style="
+                        display: flex;
+                        align-items: center;
+                        gap: 10px;
+                        margin-top: 10px;
+                        padding: 5px;
+                      "
+                    >
+                      <img
+                        src="/whatsapp-business-api/images/industries/Spa saloon.svg"
+                        alt="emovur"
+                        style="width: 25px"
+                      />
+
+                      <div
+                        style="
+                          display: flex;
+                          flex-direction: column;
+                          line-height: 1rem;
+                          padding: 5px;
+                          gap: 2px;
+                        "
+                      >
+                        <p style="font-size: 16px; font-family: gilroy-bold">
+                          Spas and Salons
+                        </p>
+                        <p style="font-size: 12px">
+                          Facilitate Meaningful Customer<br />
+                          Interactions with WhatsApp Flows
+                        </p>
+                      </div>
+                    </a>
+                  </li>
+                </div>
+              </ul>
+            </li>
+            <li
+              class="nav-item dropdown nav-services"
+              id="header-dropdown-mobile"
+            >
+              <a
+                class="nav-link dropdown-toggle dropdown-link"
+                href="#"
+                data-toggle="dropdown"
+                >Industries</a
+              >
+              <ul class="dropdown-menu">
+                <li class="dropdown-item">
+                  <a href="./whatsapp-chatbot-for-edutech.php">Education</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="./whatsapp-real-estate.php">Real Estate</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="./whatsapp-industries-ecommerce.php">E-Commerce</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="./whatsapp-home-decor.php">Home Decor</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="./whatsapp-events.php">Events and Webinars </a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="./whatsapp-automotive.php">Automotive </a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="./whatsapp-banking-and-finance.php"
+                    >Banking and Finance</a
+                  >
+                </li>
+                <li class="dropdown-item">
+                  <a href="./whatsapp-healthcare.php">Healthcare</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="./whatsapp-tourism.php">Tourism</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="./whatsapp-restuarant.php">Restuarant</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="./whatsapp-Saas-IT-services.php">SaaS/IT Services</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="./whatsapp-marketing-agency.php">Marketing Agency</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="./whatsapp-spas-salons.php">Spas and Salons</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item nav-home">
+              <a
+                class="nav-link"
+                href="/whatsapp-business-api/partner"
+                style="margin-right: 0 0px 0 20px !important"
+                id="lg-hd-aff/par-btn"
+                >Affiliate/Partner
+                <!-- <span
+                                        style="padding: 5px 5px;margin: 0 10px;background-color: #0c9ffa;border-radius: 10px;color: #fff;margin-left: -1px">
+                                        50%</span> -->
+              </a>
+            </li>
+            <!-- <li class="nav-item dropdown nav-services" id="header-dropdown-disktop">
+                                <a class="nav-link dropdown-toggle dropdown-link" data-toggle="dropdown">Case
+                                    Studies</a>
+                                <ul class="dropdown-menu" id="features-dropdown" style="display: flex;gap: 20px">
+                                    <div style="width: 100%;">
+                                        <li class="dropdown-item"><a href="./five-star-checken.php"
+                                                style="display: flex;align-items: center;gap: 10px;margin-top: 10px;padding:5px">
+    
+                                                <img src="./images/brodcast@4x.webp" alt="emovur"
+                                                    style="width: 25px; ">
+    
+                                                <div style="display: flex;flex-direction: column;line-height:
+                                                    1rem;padding: 5px;gap: 2px">
+                                                    <p style="font-size: 16px;font-family: gilroy-bold">
+                                                        Five Star Chicken
+                                                    </p>
+                                                    <p style="font-size: 12px">
+                                                        Launch marketing campaigns<br> at scale.</p>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </li> -->
+
+            <li class="action-list-item">
+              <a
+                href="https://admin.emovur.com/auth/register"
+                target="_blank"
+                class="theme-btn line-button-one contact-button button-orange"
+                id="header-signup-btn"
+                >Start Free Trial</a
+              >
+            </li>
+
+            <!-- <div class="first-logo-mobile" style="background-color: #0c9ffa"><a href="../"><img
+                                        src="./images/E - White.svg" alt="emovur"
+                                        style="width: 50px; padding: 5px 10px 5px 10px"></a></div> -->
+          </ul>
+        </div>
       </div>
-    </div>
+    </nav>
   </div>
-</header>
+</div>

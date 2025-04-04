@@ -1,8 +1,10 @@
+# baseURL = "/whatsapp-business-api/blog/"
 baseURL = "/whatsapp-business-api/blog/"
 languageCode = 'en-us'
 title = "ExampleSite"
 themesDir = 'themes'
 theme = "PaperMod"
+
 
 enableRobotsTXT = true
 buildDrafts = false
@@ -21,6 +23,7 @@ keywords = ["Blog", "Portfolio", "PaperMod"]
 author = "Me"
 # author = ["Me", "You"] # multiple authors
 images = ["<link or path of image for opengraph, twitter-cards>"]
+logo = "https://emovur.com/images/logo/logo.png"
 DateFormat = "January 2, 2006"
 defaultTheme = "auto"
 disableThemeToggle = false
@@ -47,7 +50,7 @@ favicon16x16 = "<link / abs url>"
 favicon32x32 = "<link / abs url>"
 apple_touch_icon = "<link / abs url>"
 safari_pinned_tab = "<link / abs url>"
-customCSS = ["css/common/custom.css, css/common/style.css, css/common/responsive.css"]
+customCSS = []
 
 [params.label]
 text = "Home"

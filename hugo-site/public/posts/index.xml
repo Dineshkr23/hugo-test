@@ -2,29 +2,73 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on ExampleSite</title>
-    <link>//localhost:1313/posts/</link>
+    <link>/whatsapp-business-api/blog/posts/</link>
     <description>Recent content in Posts on ExampleSite</description>
     <image>
       <title>ExampleSite</title>
-      <url>//localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>//localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>/whatsapp-business-api/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>/whatsapp-business-api/blog/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.144.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 15 Sep 2020 11:30:03 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 31 Mar 2025 10:14:51 +0000</lastBuildDate>
+    <atom:link href="/whatsapp-business-api/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>test3</title>
+      <link>/whatsapp-business-api/blog/posts/test3slug/</link>
+      <pubDate>Mon, 31 Mar 2025 10:14:51 +0000</pubDate>
+      <guid>/whatsapp-business-api/blog/posts/test3slug/</guid>
+      <description>&lt;p&gt;test 3 desc&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;&lt;strong&gt;hd1&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;hd2&lt;/strong&gt;&lt;/th&gt;
+          &lt;th&gt;&lt;strong&gt;hd3&lt;/strong&gt;&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;one&lt;/td&gt;
+          &lt;td&gt;t1wo&lt;/td&gt;
+          &lt;td&gt;three&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;kr&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;react&lt;/span&gt; &lt;span class=&#34;nx&#34;&gt;from&lt;/span&gt; &lt;span class=&#34;s1&#34;&gt;&amp;#39;react&amp;#39;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;rich-text&#34;&gt;&lt;strong&gt;Rich Text&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;j kjwdkjallakslaksl&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>test2</title>
+      <link>/whatsapp-business-api/blog/posts/test2slug/</link>
+      <pubDate>Mon, 31 Mar 2025 10:05:49 +0000</pubDate>
+      <guid>/whatsapp-business-api/blog/posts/test2slug/</guid>
+      <description>&lt;p&gt;test2 desc&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>test1</title>
+      <link>/whatsapp-business-api/blog/posts/tes1/</link>
+      <pubDate>Mon, 31 Mar 2025 09:50:48 +0000</pubDate>
+      <guid>/whatsapp-business-api/blog/posts/tes1/</guid>
+      <description>&lt;p&gt;test1desc&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My 1st post</title>
-      <link>//localhost:1313/posts/posts-copy/</link>
+      <link>/whatsapp-business-api/blog/posts/posts-copy/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>//localhost:1313/posts/posts-copy/</guid>
+      <guid>/whatsapp-business-api/blog/posts/posts-copy/</guid>
       <description>Desc Text.</description>
     </item>
     <item>
       <title>My 1st post</title>
-      <link>//localhost:1313/posts/posts/</link>
+      <link>/whatsapp-business-api/blog/posts/posts/</link>
       <pubDate>Tue, 15 Sep 2020 11:30:03 +0000</pubDate>
-      <guid>//localhost:1313/posts/posts/</guid>
+      <guid>/whatsapp-business-api/blog/posts/posts/</guid>
       <description>Desc Text.</description>
     </item>
   </channel>
